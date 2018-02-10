@@ -100,4 +100,9 @@ ENV/
 # mypy
 .mypy_cache/
 
+# Word & Visio files
 .docx
+.vsdx
+
+# Temp files
+.tmp
