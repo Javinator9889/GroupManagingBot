@@ -29,8 +29,8 @@ CREATE TABLE IF NOT EXISTS `GroupManaging`.`Group` (
   `sitckers_enabled` TINYINT NULL DEFAULT 1 COMMENT 'Is sending stickers allowed in this group?',
   `bots_enabled` TINYINT NULL DEFAULT 1 COMMENT 'Can non-admin users add their bots?',
   `auto_shorten_links` TINYINT NULL DEFAULT 1 COMMENT 'Automatically short detected links',
-  PRIMARY KEY (`chat_id`))
-ENGINE = InnoDB;
+  PRIMARY KEY (`chat_id`));
+-- ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
@@ -40,8 +40,8 @@ CREATE TABLE IF NOT EXISTS `GroupManaging`.`User` (
   `user_id` INT NOT NULL COMMENT 'Unique ID for a user',
   `username` VARCHAR(100) NULL COMMENT 'Unique username for the user',
   `name` VARCHAR(500) NULL COMMENT 'Name of the user',
-  PRIMARY KEY (`user_id`))
-ENGINE = InnoDB;
+  PRIMARY KEY (`user_id`));
+-- ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
@@ -64,8 +64,8 @@ CREATE TABLE IF NOT EXISTS `GroupManaging`.`Events` (
     FOREIGN KEY (`chat_id`)
     REFERENCES `GroupManaging`.`Group` (`chat_id`)
     ON DELETE CASCADE
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB;
+    ON UPDATE NO ACTION);
+-- ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
@@ -85,8 +85,8 @@ CREATE TABLE IF NOT EXISTS `GroupManaging`.`Polls` (
     FOREIGN KEY (`chat_id`)
     REFERENCES `GroupManaging`.`Group` (`chat_id`)
     ON DELETE CASCADE
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB;
+    ON UPDATE NO ACTION);
+-- ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
@@ -104,8 +104,8 @@ CREATE TABLE IF NOT EXISTS `GroupManaging`.`Options` (
     FOREIGN KEY (`poll_id` , `chat_id`)
     REFERENCES `GroupManaging`.`Polls` (`poll_id` , `chat_id`)
     ON DELETE CASCADE
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB;
+    ON UPDATE NO ACTION);
+-- ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
@@ -129,8 +129,8 @@ CREATE TABLE IF NOT EXISTS `GroupManaging`.`User_has_Group` (
     FOREIGN KEY (`chat_id`)
     REFERENCES `GroupManaging`.`Group` (`chat_id`)
     ON DELETE CASCADE
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB;
+    ON UPDATE NO ACTION);
+-- ENGINE = InnoDB;
 
 
 SET SQL_MODE=@OLD_SQL_MODE;
