@@ -1,5 +1,5 @@
 import pymysql
-import Constants
+from Data import Constants
 
 
 class DatabaseConnection:

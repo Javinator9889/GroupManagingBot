@@ -1,3 +1,2 @@
 # Private files (such as Telegram TOKEN, etc)
-*TOKEN*
-*.dat
+BOT_VALUES.dat
