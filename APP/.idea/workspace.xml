@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c68cb1c5-c536-4a0b-bd5a-9627b8495957" name="Default" comment="Created project and bot file">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/APP.iml" afterPath="$PROJECT_DIR$/.idea/APP.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +45,7 @@
       <file leaf-file-name="DatabaseConnection.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Database/DatabaseConnection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
+            <state relative-caret-position="1617">
               <caret line="77" column="53" lean-forward="false" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="53" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -175,6 +178,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,15 +206,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="E:/ARCHIVOS DE USUARIO/Desktop/Bots/YouTube" />
+    <property name="last_opened_file_path" value="E:/ARCHIVOS DE USUARIO/Desktop/RasPI/NFC-Puerta-CD" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -255,9 +258,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928178" sideWeight="0.49791667" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -295,6 +300,108 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/SQLQueries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+          <folding>
+            <marker date="1518632187314" expanded="true" signature="34:74" ph="INSERT INTO `group`... " />
+            <marker date="1518632187314" expanded="true" signature="93:141" ph="UPDATE `group`... " />
+            <marker date="1518632187314" expanded="true" signature="159:206" ph="UPDATE `group`... " />
+            <marker date="1518632187314" expanded="true" signature="224:271" ph="UPDATE `group`... " />
+            <marker date="1518632187314" expanded="true" signature="300:359" ph="UPDATE `group`... " />
+            <marker date="1518632187314" expanded="true" signature="384:439" ph="UPDATE `group`... " />
+            <marker date="1518632187314" expanded="true" signature="469:530" ph="UPDATE `group`... " />
+            <marker date="1518632187314" expanded="true" signature="578:654" ph="INSERT INTO `user_has_group`... " />
+            <marker date="1518632187314" expanded="true" signature="578:682" ph="INSERT INTO `user_has_group`... " />
+            <marker date="1518632187314" expanded="true" signature="705:785" ph="UPDATE `user_has_group`... " />
+            <marker date="1518632187314" expanded="true" signature="803:880" ph="UPDATE `user_has_group`... " />
+            <marker date="1518632187314" expanded="true" signature="897:970" ph="UPDATE `user_has_group`... " />
+            <marker date="1518632187314" expanded="true" signature="1002:1078" ph="INSERT INTO `user`... " />
+            <marker date="1518632187314" expanded="true" signature="1099:1149" ph="UPDATE `user`... " />
+            <marker date="1518632187314" expanded="true" signature="1166:1212" ph="UPDATE `user`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1f2e7ea5-98bc-43fa-9613-48a4baf1dbd8/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/DatabaseConnection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="77" column="53" lean-forward="false" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1518632455550" expanded="true" signature="466:476" ph="INSERT INTO group... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/SQLQueries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+          <folding>
+            <marker date="1518632187314" expanded="true" signature="34:74" ph="INSERT INTO `group`... " />
+            <marker date="1518632187314" expanded="true" signature="93:141" ph="UPDATE `group`... " />
+            <marker date="1518632187314" expanded="true" signature="159:206" ph="UPDATE `group`... " />
+            <marker date="1518632187314" expanded="true" signature="224:271" ph="UPDATE `group`... " />
+            <marker date="1518632187314" expanded="true" signature="300:359" ph="UPDATE `group`... " />
+            <marker date="1518632187314" expanded="true" signature="384:439" ph="UPDATE `group`... " />
+            <marker date="1518632187314" expanded="true" signature="469:530" ph="UPDATE `group`... " />
+            <marker date="1518632187314" expanded="true" signature="578:654" ph="INSERT INTO `user_has_group`... " />
+            <marker date="1518632187314" expanded="true" signature="578:682" ph="INSERT INTO `user_has_group`... " />
+            <marker date="1518632187314" expanded="true" signature="705:785" ph="UPDATE `user_has_group`... " />
+            <marker date="1518632187314" expanded="true" signature="803:880" ph="UPDATE `user_has_group`... " />
+            <marker date="1518632187314" expanded="true" signature="897:970" ph="UPDATE `user_has_group`... " />
+            <marker date="1518632187314" expanded="true" signature="1002:1078" ph="INSERT INTO `user`... " />
+            <marker date="1518632187314" expanded="true" signature="1099:1149" ph="UPDATE `user`... " />
+            <marker date="1518632187314" expanded="true" signature="1166:1212" ph="UPDATE `user`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1f2e7ea5-98bc-43fa-9613-48a4baf1dbd8/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/DatabaseConnection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="77" column="53" lean-forward="false" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1518632455550" expanded="true" signature="466:476" ph="INSERT INTO group... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -536,7 +643,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Database/DatabaseConnection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
+        <state relative-caret-position="1617">
           <caret line="77" column="53" lean-forward="false" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="53" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />

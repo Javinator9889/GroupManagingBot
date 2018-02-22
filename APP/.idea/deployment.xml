@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="Copy of project-level server 'Casa' (1)">
+    <serverData>
+      <paths name="Casa">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www/vpnservice.ddns.net/public_html/apps/" local="$PROJECT_DIR$" web="/apps" />
+            <mapping local="" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Copy of project-level server 'Casa' (1)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/apps" local="$PROJECT_DIR$" web="/apps" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
